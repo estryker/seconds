@@ -1,0 +1,83 @@
+=begin rdoc 
+Adds active_support/core_ext/numeric like methods to the Numeric class
+
+e.g. 15.minutes  returns 15 * 60
+e.g. 15.minutes.ago returns a Time object whose value is 15 minutes less than Time.now
+=end
+class Numeric
+  
+=begin rdoc
+Returns the number of seconds in +self+ seconds. Intended to be used with the +ago+ method. 
+
+---
+ 1.second
+ => 1
+---
+=end
+  def second
+    self
+  end
+
+
+=begin rdoc
+Returns the number of seconds in +self+ minutes. Intended to be used with the +ago+ method. 
+
+---
+ 1.minute
+ => 60
+---
+=end
+  def minute
+    60*second
+  end
+
+=begin rdoc
+Returns the number of seconds in +self+ hours. Intended to be used with the +ago+ method. 
+
+---
+ 1.hour
+ => 3600
+---
+=end
+  def hour
+    60*minute
+  end
+
+=begin rdoc
+Returns the number of seconds in +self+ days. Intended to be used with the +ago+ method. 
+
+---
+ 1.day
+ => 86400
+---
+=end
+  def day
+    24*hour
+  end
+
+=begin rdoc
+Returns the number of seconds in +self+ weeks. Intended to be used with the +ago+ method. 
+
+---
+ 1.week
+ => 604800
+---
+=end
+  def week
+    7*day
+  end
+
+=begin rdoc
+Returns the number of seconds in +self+ minutes. Intended to be used with the +ago+ method. 
+
+---
+ 1.minute
+ => 60
+---
+=end
+  def minute
+    self*60
+  end
+
+
+end
