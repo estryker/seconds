@@ -2,137 +2,122 @@
 
 <html>
 <head>
-<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta charset="UTF-8">
 
-<title>Class: Numeric</title>
-
-<link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet">
+<title>class Numeric - RDoc Documentation</title>
 
 <script type="text/javascript">
   var rdoc_rel_prefix = "./";
 </script>
 
-<script type="text/javascript" charset="utf-8" src="./js/jquery.js"></script>
-<script type="text/javascript" charset="utf-8" src="./js/navigation.js"></script>
-<script type="text/javascript" charset="utf-8" src="./js/search_index.js"></script>
-<script type="text/javascript" charset="utf-8" src="./js/search.js"></script>
-<script type="text/javascript" charset="utf-8" src="./js/searcher.js"></script>
-<script type="text/javascript" charset="utf-8" src="./js/darkfish.js"></script>
+<script src="./js/jquery.js"></script>
+<script src="./js/darkfish.js"></script>
+
+<link href="./css/fonts.css" rel="stylesheet">
+<link href="./css/rdoc.css" rel="stylesheet">
 
 
-<body id="top" class="class">
-<nav id="metadata">
-  <nav id="home-section" class="section">
-  <h3 class="section-header">
-    <a href="./index.html">Home</a>
+
+<body id="top" role="document" class="class">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
     <a href="./table_of_contents.html#classes">Classes</a>
     <a href="./table_of_contents.html#methods">Methods</a>
-  </h3>
-</nav>
-
-
-  <nav id="search-section" class="section project-section" class="initially-hidden">
-  <form action="#" method="get" accept-charset="utf-8">
-    <h3 class="section-header">
-      <input type="text" name="search" placeholder="Search" id="search-field"
-             title="Type to search, Up and Down to navigate, Enter to load">
-    </h3>
-  </form>
-
-  <ul id="search-results" class="initially-hidden"></ul>
-</nav>
-
-
-  <div id="file-metadata">
-    <nav id="file-list-section" class="section">
-  <h3 class="section-header">Defined In</h3>
-  <ul>
-    <li>lib/seconds.rb
-  </ul>
-</nav>
-
-    
   </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
 
   <div id="class-metadata">
     
-    <nav id="parent-class-section" class="section">
-  <h3 class="section-header">Parent</h3>
+    <div id="parent-class-section" class="nav-section">
+  <h3>Parent</h3>
+
   
   <p class="link">Object
   
-</nav>
+</div>
 
+    
     
     <!-- Method Quickref -->
-<nav id="method-list-section" class="section">
-  <h3 class="section-header">Methods</h3>
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
 
-  <ul class="link-list">
+  <ul class="link-list" role="directory">
     
-    <li><a href="#method-i-ago">#ago</a>
+    <li ><a href="#method-i-ago">#ago</a>
     
-    <li><a href="#method-i-day">#day</a>
+    <li ><a href="#method-i-day">#day</a>
     
-    <li><a href="#method-i-days">#days</a>
+    <li ><a href="#method-i-days">#days</a>
     
-    <li><a href="#method-i-from">#from</a>
+    <li ><a href="#method-i-from">#from</a>
     
-    <li><a href="#method-i-from_now">#from_now</a>
+    <li ><a href="#method-i-from_now">#from_now</a>
     
-    <li><a href="#method-i-hour">#hour</a>
+    <li ><a href="#method-i-hour">#hour</a>
     
-    <li><a href="#method-i-hours">#hours</a>
+    <li ><a href="#method-i-hours">#hours</a>
     
-    <li><a href="#method-i-minute">#minute</a>
+    <li ><a href="#method-i-minute">#minute</a>
     
-    <li><a href="#method-i-minutes">#minutes</a>
+    <li ><a href="#method-i-minutes">#minutes</a>
     
-    <li><a href="#method-i-month">#month</a>
+    <li ><a href="#method-i-month">#month</a>
     
-    <li><a href="#method-i-second">#second</a>
+    <li ><a href="#method-i-months">#months</a>
     
-    <li><a href="#method-i-seconds">#seconds</a>
+    <li ><a href="#method-i-second">#second</a>
     
-    <li><a href="#method-i-until">#until</a>
+    <li ><a href="#method-i-seconds">#seconds</a>
     
-    <li><a href="#method-i-week">#week</a>
+    <li ><a href="#method-i-until">#until</a>
     
-    <li><a href="#method-i-weeks">#weeks</a>
+    <li ><a href="#method-i-week">#week</a>
+    
+    <li ><a href="#method-i-weeks">#weeks</a>
+    
+    <li ><a href="#method-i-year">#year</a>
+    
+    <li ><a href="#method-i-years">#years</a>
     
   </ul>
-</nav>
-
-  </div>
-
-  <div id="project-metadata">
-    <nav id="fileindex-section" class="section project-section">
-  <h3 class="section-header">Pages</h3>
-
-  <ul>
-  
-    <li class="file"><a href="./README.html">README</a>
-  
-  </ul>
-</nav>
-
-    <nav id="classindex-section" class="section project-section">
-  <h3 class="section-header">Class and Module Index</h3>
-
-  <ul class="link-list">
-  
-    <li><a href="./Numeric.html">Numeric</a>
-  
-  </ul>
-</nav>
+</div>
 
   </div>
 </nav>
 
-<div id="documentation">
-  <h1 class="class">class Numeric</h1>
+<main role="main" aria-labelledby="class-Numeric">
+  <h1 id="class-Numeric" class="class">
+    class Numeric
+  </h1>
 
-  <div id="description" class="description">
+  <section class="description">
     
 <p>Adds active_support/core_ext/numeric like methods to the <a
 href="Numeric.html">Numeric</a> class</p>
@@ -140,7 +125,7 @@ href="Numeric.html">Numeric</a> class</p>
 <p>e.g. 15.minutes  returns 15 * 60 e.g. 15.minutes.ago returns a Time object
 whose value is 15 minutes less than Time.now</p>
 
-  </div><!-- description -->
+  </section>
 
   
   
@@ -154,10 +139,11 @@ whose value is 15 minutes less than Time.now</p>
 
     
 
-    <!-- Methods -->
     
-     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
-      <h3 class="section-header">Public Instance Methods</h3>
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
 
     
       <div id="method-i-ago" class="method-detail ">
@@ -165,7 +151,9 @@ whose value is 15 minutes less than Time.now</p>
         <div class="method-heading">
           <span class="method-name">ago</span><span
             class="method-args">()</span>
+          
           <span class="method-click-advice">click to toggle source</span>
+          
         </div>
         
 
@@ -173,21 +161,22 @@ whose value is 15 minutes less than Time.now</p>
           
           <p>Returns a Time object <code>self</code> seconds before Time.now.</p>
           
+          
 
           
           <div class="method-source-code" id="ago-source">
-            <pre><span class="ruby-comment"># File lib/seconds.rb, line 90</span>
+            <pre><span class="ruby-comment"># File lib/seconds.rb, line 103</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">ago</span>
   <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span> <span class="ruby-operator">-</span> <span class="ruby-keyword">self</span>
 <span class="ruby-keyword">end</span></pre>
-          </div><!-- ago-source -->
+          </div>
           
         </div>
 
         
 
         
-      </div><!-- ago-method -->
+      </div>
 
     
       <div id="method-i-day" class="method-detail ">
@@ -195,7 +184,9 @@ whose value is 15 minutes less than Time.now</p>
         <div class="method-heading">
           <span class="method-name">day</span><span
             class="method-args">()</span>
+          
           <span class="method-click-advice">click to toggle source</span>
+          
         </div>
         
 
@@ -204,14 +195,15 @@ whose value is 15 minutes less than Time.now</p>
           <p>Returns the number of seconds in <code>self</code> days. Intended to be
 used with the <code>ago</code> method.</p>
           
+          
 
           
           <div class="method-source-code" id="day-source">
             <pre><span class="ruby-comment"># File lib/seconds.rb, line 54</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">day</span>
-  <span class="ruby-value">24</span>*<span class="ruby-identifier">hour</span>
+  <span class="ruby-value">24</span><span class="ruby-operator">*</span><span class="ruby-identifier">hour</span>
 <span class="ruby-keyword">end</span></pre>
-          </div><!-- day-source -->
+          </div>
           
         </div>
 
@@ -222,7 +214,7 @@ used with the <code>ago</code> method.</p>
         
 
         
-      </div><!-- day-method -->
+      </div>
 
     
       <div id="method-i-days" class="method-detail method-alias">
@@ -230,11 +222,12 @@ used with the <code>ago</code> method.</p>
         <div class="method-heading">
           <span class="method-name">days</span><span
             class="method-args">()</span>
-          <span class="method-click-advice">click to toggle source</span>
+          
         </div>
         
 
         <div class="method-description">
+          
           
           
           
@@ -249,7 +242,7 @@ used with the <code>ago</code> method.</p>
           Alias for: <a href="Numeric.html#method-i-day">day</a>
         </div>
         
-      </div><!-- days-method -->
+      </div>
 
     
       <div id="method-i-from" class="method-detail ">
@@ -257,7 +250,9 @@ used with the <code>ago</code> method.</p>
         <div class="method-heading">
           <span class="method-name">from</span><span
             class="method-args">(time)</span>
+          
           <span class="method-click-advice">click to toggle source</span>
+          
         </div>
         
 
@@ -265,21 +260,22 @@ used with the <code>ago</code> method.</p>
           
           <p>Returns a Time object <code>self</code> seconds after the given time.</p>
           
+          
 
           
           <div class="method-source-code" id="from-source">
-            <pre><span class="ruby-comment"># File lib/seconds.rb, line 114</span>
+            <pre><span class="ruby-comment"># File lib/seconds.rb, line 127</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">from</span> <span class="ruby-identifier">time</span>
   <span class="ruby-identifier">time</span> <span class="ruby-operator">+</span> <span class="ruby-keyword">self</span>
 <span class="ruby-keyword">end</span></pre>
-          </div><!-- from-source -->
+          </div>
           
         </div>
 
         
 
         
-      </div><!-- from-method -->
+      </div>
 
     
       <div id="method-i-from_now" class="method-detail ">
@@ -287,7 +283,9 @@ used with the <code>ago</code> method.</p>
         <div class="method-heading">
           <span class="method-name">from_now</span><span
             class="method-args">()</span>
+          
           <span class="method-click-advice">click to toggle source</span>
+          
         </div>
         
 
@@ -295,21 +293,22 @@ used with the <code>ago</code> method.</p>
           
           <p>Returns a Time object <code>self</code> seconds from now.</p>
           
+          
 
           
           <div class="method-source-code" id="from_now-source">
-            <pre><span class="ruby-comment"># File lib/seconds.rb, line 125</span>
+            <pre><span class="ruby-comment"># File lib/seconds.rb, line 138</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">from_now</span>
   <span class="ruby-keyword">self</span>.<span class="ruby-identifier">from</span> <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span>
 <span class="ruby-keyword">end</span></pre>
-          </div><!-- from_now-source -->
+          </div>
           
         </div>
 
         
 
         
-      </div><!-- from_now-method -->
+      </div>
 
     
       <div id="method-i-hour" class="method-detail ">
@@ -317,7 +316,9 @@ used with the <code>ago</code> method.</p>
         <div class="method-heading">
           <span class="method-name">hour</span><span
             class="method-args">()</span>
+          
           <span class="method-click-advice">click to toggle source</span>
+          
         </div>
         
 
@@ -326,14 +327,15 @@ used with the <code>ago</code> method.</p>
           <p>Returns the number of seconds in <code>self</code> hours. Intended to be
 used with the <code>ago</code> method.</p>
           
+          
 
           
           <div class="method-source-code" id="hour-source">
             <pre><span class="ruby-comment"># File lib/seconds.rb, line 42</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">hour</span>
-  <span class="ruby-value">60</span>*<span class="ruby-identifier">minute</span>
+  <span class="ruby-value">60</span><span class="ruby-operator">*</span><span class="ruby-identifier">minute</span>
 <span class="ruby-keyword">end</span></pre>
-          </div><!-- hour-source -->
+          </div>
           
         </div>
 
@@ -344,7 +346,7 @@ used with the <code>ago</code> method.</p>
         
 
         
-      </div><!-- hour-method -->
+      </div>
 
     
       <div id="method-i-hours" class="method-detail method-alias">
@@ -352,11 +354,12 @@ used with the <code>ago</code> method.</p>
         <div class="method-heading">
           <span class="method-name">hours</span><span
             class="method-args">()</span>
-          <span class="method-click-advice">click to toggle source</span>
+          
         </div>
         
 
         <div class="method-description">
+          
           
           
           
@@ -371,7 +374,7 @@ used with the <code>ago</code> method.</p>
           Alias for: <a href="Numeric.html#method-i-hour">hour</a>
         </div>
         
-      </div><!-- hours-method -->
+      </div>
 
     
       <div id="method-i-minute" class="method-detail ">
@@ -379,7 +382,9 @@ used with the <code>ago</code> method.</p>
         <div class="method-heading">
           <span class="method-name">minute</span><span
             class="method-args">()</span>
+          
           <span class="method-click-advice">click to toggle source</span>
+          
         </div>
         
 
@@ -388,25 +393,26 @@ used with the <code>ago</code> method.</p>
           <p>Returns the number of seconds in <code>self</code> minutes. Intended to be
 used with the <code>ago</code> method.</p>
           
+          
 
           
           <div class="method-source-code" id="minute-source">
             <pre><span class="ruby-comment"># File lib/seconds.rb, line 30</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">minute</span>
-  <span class="ruby-value">60</span>*<span class="ruby-identifier">second</span>
+  <span class="ruby-value">60</span><span class="ruby-operator">*</span><span class="ruby-identifier">second</span>
 <span class="ruby-keyword">end</span></pre>
-          </div><!-- minute-source -->
+          </div>
           
         </div>
 
         
         <div class="aliases">
-          Also aliased as: <a href="Numeric.html#method-i-minutes">minutes</a>, minutes
+          Also aliased as: <a href="Numeric.html#method-i-minutes">minutes</a>
         </div>
         
 
         
-      </div><!-- minute-method -->
+      </div>
 
     
       <div id="method-i-minutes" class="method-detail method-alias">
@@ -414,11 +420,12 @@ used with the <code>ago</code> method.</p>
         <div class="method-heading">
           <span class="method-name">minutes</span><span
             class="method-args">()</span>
-          <span class="method-click-advice">click to toggle source</span>
+          
         </div>
         
 
         <div class="method-description">
+          
           
           
           
@@ -433,7 +440,7 @@ used with the <code>ago</code> method.</p>
           Alias for: <a href="Numeric.html#method-i-minute">minute</a>
         </div>
         
-      </div><!-- minutes-method -->
+      </div>
 
     
       <div id="method-i-month" class="method-detail ">
@@ -441,7 +448,9 @@ used with the <code>ago</code> method.</p>
         <div class="method-heading">
           <span class="method-name">month</span><span
             class="method-args">()</span>
+          
           <span class="method-click-advice">click to toggle source</span>
+          
         </div>
         
 
@@ -450,21 +459,54 @@ used with the <code>ago</code> method.</p>
           <p>Returns the number of seconds in <code>self</code> months. Assumes a month
 is 28 days. Intended to be used with the <code>ago</code> method.</p>
           
+          
 
           
           <div class="method-source-code" id="month-source">
             <pre><span class="ruby-comment"># File lib/seconds.rb, line 78</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">month</span>
-  <span class="ruby-value">4</span>*<span class="ruby-identifier">week</span>
+  <span class="ruby-value">4</span><span class="ruby-operator">*</span><span class="ruby-identifier">week</span>
 <span class="ruby-keyword">end</span></pre>
-          </div><!-- month-source -->
+          </div>
+          
+        </div>
+
+        
+        <div class="aliases">
+          Also aliased as: <a href="Numeric.html#method-i-months">months</a>
+        </div>
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-months" class="method-detail method-alias">
+        
+        <div class="method-heading">
+          <span class="method-name">months</span><span
+            class="method-args">()</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
           
         </div>
 
         
 
         
-      </div><!-- month-method -->
+        <div class="aliases">
+          Alias for: <a href="Numeric.html#method-i-month">month</a>
+        </div>
+        
+      </div>
 
     
       <div id="method-i-second" class="method-detail ">
@@ -472,7 +514,9 @@ is 28 days. Intended to be used with the <code>ago</code> method.</p>
         <div class="method-heading">
           <span class="method-name">second</span><span
             class="method-args">()</span>
+          
           <span class="method-click-advice">click to toggle source</span>
+          
         </div>
         
 
@@ -481,6 +525,7 @@ is 28 days. Intended to be used with the <code>ago</code> method.</p>
           <p>Returns the number of seconds in <code>self</code> seconds. Intended to be
 used with the <code>ago</code> method.</p>
           
+          
 
           
           <div class="method-source-code" id="second-source">
@@ -488,7 +533,7 @@ used with the <code>ago</code> method.</p>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">second</span>
   <span class="ruby-keyword">self</span>
 <span class="ruby-keyword">end</span></pre>
-          </div><!-- second-source -->
+          </div>
           
         </div>
 
@@ -499,7 +544,7 @@ used with the <code>ago</code> method.</p>
         
 
         
-      </div><!-- second-method -->
+      </div>
 
     
       <div id="method-i-seconds" class="method-detail method-alias">
@@ -507,13 +552,14 @@ used with the <code>ago</code> method.</p>
         <div class="method-heading">
           <span class="method-name">seconds</span><span
             class="method-args">()</span>
-          <span class="method-click-advice">click to toggle source</span>
+          
         </div>
         
 
         <div class="method-description">
           
           <p>some pluralization aliases</p>
+          
           
 
           
@@ -526,7 +572,7 @@ used with the <code>ago</code> method.</p>
           Alias for: <a href="Numeric.html#method-i-second">second</a>
         </div>
         
-      </div><!-- seconds-method -->
+      </div>
 
     
       <div id="method-i-until" class="method-detail ">
@@ -534,7 +580,9 @@ used with the <code>ago</code> method.</p>
         <div class="method-heading">
           <span class="method-name">until</span><span
             class="method-args">(time)</span>
+          
           <span class="method-click-advice">click to toggle source</span>
+          
         </div>
         
 
@@ -542,21 +590,22 @@ used with the <code>ago</code> method.</p>
           
           <p>Returns a Time object <code>self</code> seconds before the given time.</p>
           
+          
 
           
           <div class="method-source-code" id="until-source">
-            <pre><span class="ruby-comment"># File lib/seconds.rb, line 101</span>
+            <pre><span class="ruby-comment"># File lib/seconds.rb, line 114</span>
 <span class="ruby-keyword">def</span> <span class="ruby-keyword">until</span> <span class="ruby-identifier">time</span>
   <span class="ruby-identifier">time</span> <span class="ruby-operator">-</span> <span class="ruby-keyword">self</span>
 <span class="ruby-keyword">end</span></pre>
-          </div><!-- until-source -->
+          </div>
           
         </div>
 
         
 
         
-      </div><!-- until-method -->
+      </div>
 
     
       <div id="method-i-week" class="method-detail ">
@@ -564,7 +613,9 @@ used with the <code>ago</code> method.</p>
         <div class="method-heading">
           <span class="method-name">week</span><span
             class="method-args">()</span>
+          
           <span class="method-click-advice">click to toggle source</span>
+          
         </div>
         
 
@@ -573,14 +624,15 @@ used with the <code>ago</code> method.</p>
           <p>Returns the number of seconds in <code>self</code> weeks. Intended to be
 used with the <code>ago</code> method.</p>
           
+          
 
           
           <div class="method-source-code" id="week-source">
             <pre><span class="ruby-comment"># File lib/seconds.rb, line 66</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">week</span>
-  <span class="ruby-value">7</span>*<span class="ruby-identifier">day</span>
+  <span class="ruby-value">7</span><span class="ruby-operator">*</span><span class="ruby-identifier">day</span>
 <span class="ruby-keyword">end</span></pre>
-          </div><!-- week-source -->
+          </div>
           
         </div>
 
@@ -591,7 +643,7 @@ used with the <code>ago</code> method.</p>
         
 
         
-      </div><!-- week-method -->
+      </div>
 
     
       <div id="method-i-weeks" class="method-detail method-alias">
@@ -599,11 +651,12 @@ used with the <code>ago</code> method.</p>
         <div class="method-heading">
           <span class="method-name">weeks</span><span
             class="method-args">()</span>
-          <span class="method-click-advice">click to toggle source</span>
+          
         </div>
         
 
         <div class="method-description">
+          
           
           
           
@@ -618,19 +671,85 @@ used with the <code>ago</code> method.</p>
           Alias for: <a href="Numeric.html#method-i-week">week</a>
         </div>
         
-      </div><!-- weeks-method -->
+      </div>
 
     
-    </section><!-- public-instance-method-details -->
+      <div id="method-i-year" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">year</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Returns the number of seconds in <code>self</code> years. Assumes a year is
+365 days. Intended to be used with the <code>ago</code> method.  Note that
+this doesn&#39;t account for leap years.</p>
+          
+          
+
+          
+          <div class="method-source-code" id="year-source">
+            <pre><span class="ruby-comment"># File lib/seconds.rb, line 91</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">year</span>
+  <span class="ruby-value">365</span><span class="ruby-operator">*</span><span class="ruby-identifier">day</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+        <div class="aliases">
+          Also aliased as: <a href="Numeric.html#method-i-years">years</a>
+        </div>
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-years" class="method-detail method-alias">
+        
+        <div class="method-heading">
+          <span class="method-name">years</span><span
+            class="method-args">()</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+        </div>
+
+        
+
+        
+        <div class="aliases">
+          Alias for: <a href="Numeric.html#method-i-year">year</a>
+        </div>
+        
+      </div>
+
+    
+    </section>
   
-  </section><!-- 5Buntitled-5D -->
+  </section>
+</main>
 
-</div><!-- documentation -->
 
-
-<footer id="validator-badges">
-  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
-  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 3.11.
-  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://docs.seattlerb.org/rdoc/">RDoc</a> 4.2.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
 </footer>
 

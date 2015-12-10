@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name = "seconds"
-  spec.version = "0.2"
+  spec.version = "0.3"
   spec.summary = "An extension of the Numeric class that provides Time object unit conversion"
   spec.files = Dir['lib/*.rb']+ ['README','GPLv2-LICENSE']
   spec.has_rdoc = true
