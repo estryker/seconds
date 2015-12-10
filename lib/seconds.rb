@@ -80,6 +80,19 @@ Returns the number of seconds in +self+ months. Assumes a month is 28 days. Inte
   end
 
 =begin rdoc
+Returns the number of seconds in +self+ years. Assumes a year is 365 days. Intended to be used with the +ago+ method. 
+Note that this doesn't account for leap years. 
+
+---
+ 1.year
+ => 31536000
+---
+=end
+  def year
+    365*day
+  end
+
+=begin rdoc
 Returns a Time object +self+ seconds before Time.now. 
 
 ---
@@ -132,5 +145,6 @@ in_an_hour = 1.hour.from_now
   alias :hours :hour
   alias :days :day
   alias :weeks :week
-  alias :minutes :minute
+  alias :months :month
+  alias :years :year
 end
