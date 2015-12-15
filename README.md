@@ -1,12 +1,12 @@
-== Overview
+## Overview
 
 Seconds adds active_support/core_ext/numeric like methods to the Numeric class
 
-== Documentation
+## Documentation
 
 Read the rdocs for the Numeric class in seconds.rb
 
-== Installation
+## Installation
 
 It is recommended to install seconds using RubyGems:
 
@@ -14,7 +14,7 @@ It is recommended to install seconds using RubyGems:
  $ sudo gem install seconds
 ```
 
-== Examples
+## Examples
 
 ```ruby
  1.second
